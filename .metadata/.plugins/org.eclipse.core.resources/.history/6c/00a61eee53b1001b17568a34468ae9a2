@@ -1,0 +1,10 @@
+package com.hp;
+
+public class Anonymous_class {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

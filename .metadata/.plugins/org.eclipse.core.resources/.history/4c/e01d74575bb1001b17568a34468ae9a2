@@ -1,0 +1,24 @@
+package com.edureka;
+
+interface cab{
+	void bookedCab();
+}
+
+class uberx implements cab{
+	public void bookedCab() {
+		System.out.println("Hello, Cab is booked by Uberx");
+	}
+}
+
+public class Functional_Interface {
+
+	public static void main(String[] args) {
+		
+		cab obj = new uberx();
+		obj.bookedCab();
+		
+		
+
+	}
+
+}

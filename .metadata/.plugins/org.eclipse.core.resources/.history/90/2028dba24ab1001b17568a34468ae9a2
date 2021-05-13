@@ -1,0 +1,18 @@
+package com.hp;
+
+interface MyFunctionalInterface{
+	public abstract void doSomeWork();
+}
+
+
+public class Functional_Interfaces {
+	public static void main(String[] args) {
+		
+		carryOutTheWork()(e->System.out.println("carryOutTheWork");
+
+	}
+	public static void carryOutTheWork(MyFunctionalInterface mi) {
+		mi.doSomeWork();
+	}
+
+}

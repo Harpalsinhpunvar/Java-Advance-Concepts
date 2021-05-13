@@ -1,0 +1,23 @@
+package com.revision;
+
+@FunctionalInterface
+interface teacher{
+	void teacherName();
+}
+
+class school implements teacher{
+	public void teacher() {
+		System.out.println("Hello, I am teacher");
+	}
+}
+
+public class FunctionInterface {
+
+	public static void main(String[] args) {
+		
+		
+		
+
+	}
+
+}

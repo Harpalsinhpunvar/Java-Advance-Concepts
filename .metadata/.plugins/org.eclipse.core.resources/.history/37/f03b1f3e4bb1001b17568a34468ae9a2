@@ -1,0 +1,10 @@
+package com.hp;
+
+public class Method_Reference {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

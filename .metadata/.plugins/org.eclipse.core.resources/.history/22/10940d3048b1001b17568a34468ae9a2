@@ -1,0 +1,14 @@
+package com.hp;
+
+interface name{
+	static public String name();
+}
+
+public class Lambda_Expression {
+
+	public static void main(String[] args) {
+		name = nam->Syatem.out.println("Hello" + nam);
+
+	}
+
+}

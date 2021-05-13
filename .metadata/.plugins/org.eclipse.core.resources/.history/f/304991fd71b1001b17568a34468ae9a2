@@ -1,0 +1,21 @@
+package lambda.practice;
+
+class lva{
+	public String wildanimal = "lion";
+}
+
+public class Pr1 {
+	public static void main(String[] args) {
+		
+	}
+	
+	public void le() {
+		String da = "dog";
+		
+		new Thread(()->{
+			System.out.println("Class level: " + this.wildanimal);
+			System.out.println("Class level: " + this.da);
+		}).start();
+	}
+
+}

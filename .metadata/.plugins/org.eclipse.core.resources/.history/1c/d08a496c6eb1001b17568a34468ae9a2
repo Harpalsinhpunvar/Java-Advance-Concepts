@@ -1,0 +1,14 @@
+package com.revision;
+
+interface classes{
+	void student();
+}
+
+public class Lambda_expression {
+
+	public static void main(String[] args) {
+		classes obj = ()->System.out.println("Hello student");
+
+	}
+
+}

@@ -1,0 +1,25 @@
+package com.hp;
+
+import java.util.function.IntBinaryOperator;
+
+public class Method_Reference {
+	public static void main(String[] args) {
+		
+		Method_Reference m2 = new Method_Reference();
+		
+		m2.operation(Method_Reference :: multiply, 2, 2);
+		m2.operation(Method_Reference :: add, 10, 25);
+	
+	}
+	private void operation(IntBinaryOperator operator, int a, int b) {
+		System.out.println(operator.applyAsInt(a,b));
+		
+	}
+	public static int multiply(int x, int y) {
+		return x*y;
+	}
+	public static int add(int x, int y) {
+		return x+y;
+	}
+
+}

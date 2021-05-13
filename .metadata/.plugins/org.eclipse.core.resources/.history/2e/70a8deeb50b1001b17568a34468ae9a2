@@ -1,0 +1,7 @@
+package com.codewithharry;
+
+class AnnonymousClass{
+	public static void main (String [] args) {
+		
+	}
+}

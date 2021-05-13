@@ -1,0 +1,14 @@
+package com.codewithharry;
+
+interface DemoAno{
+	void method1();
+}
+
+public class Lambda {
+	public static void main (String [] args) {
+		
+		DemoAno obj = ()->System.out.println("Hello method here!.");
+		obj.method1();
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.hp;
+
+interface name{
+	 public void name(String name);
+}
+
+public class Lambda_Expression {
+
+	public static void main(String[] args) {
+		name n= nam->System.out.println("Hello" + nam);
+		n.name("Harpalsinh");
+
+	}
+
+}

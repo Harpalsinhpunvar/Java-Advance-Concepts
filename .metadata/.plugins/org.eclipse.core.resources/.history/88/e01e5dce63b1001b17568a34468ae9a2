@@ -1,0 +1,27 @@
+package com.edureka;
+
+interface Calculator{
+	void add(int num1, int num2);
+}
+
+class calC{
+	public static void addSomething(int num1, int num2) {
+		System.out.println(num1 + " and " + num2 + " Addition is: " + (num1+num2));
+	}
+	
+	public  void add(int num1, int num2) {
+		System.out.println(num1 + " and " + num2 + " Addition is: " + (num1+num2));
+	}
+}
+public class MethodReference {
+	public static void main(String[] args) {
+		
+//		calC.addSomething(10, 20);
+		
+		//1.reference to a static method
+		Calculator cRef = calC::addSomething;
+		cRef.add(10, 20);
+
+	}
+
+}

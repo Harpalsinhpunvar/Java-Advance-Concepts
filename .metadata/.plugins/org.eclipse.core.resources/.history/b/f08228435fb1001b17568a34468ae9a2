@@ -1,0 +1,19 @@
+package com.edureka;
+
+interface var2{
+	int instanceVar = 10;
+	static int sVar = 100;
+}
+
+
+public class Variable_Using_Lambda {
+	public static void main(String[] args) {
+		
+		var2 obj = ()->{
+			System.out.println("instance variable : " + instanceVar);
+		};
+		
+
+	}
+
+}

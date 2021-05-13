@@ -1,0 +1,19 @@
+package com.hp;
+
+interface hello{
+	public void sayHi(String name);
+}
+
+
+
+public class Lambda_Expression {
+
+	public static void main(String[] args) {
+		
+		hello h = h2->System.out.println(h2);
+		
+		h.sayHi("Harpalsinnh");
+
+	}
+
+}

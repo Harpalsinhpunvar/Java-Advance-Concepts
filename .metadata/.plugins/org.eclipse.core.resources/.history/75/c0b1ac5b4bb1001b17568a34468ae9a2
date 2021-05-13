@@ -1,0 +1,16 @@
+package com.hp;
+
+public class Method_Reference {
+	public static void main(String[] args) {
+		
+		Method_Reference m2 = new Method_Reference();
+		
+		m2.operation(Method_Reference :: multiply, 22, 22);
+		m2.operation(m2 :: add, 10, 25);
+	
+	}
+	public static int multiply(int x, int y) {
+		return x*y;
+	}
+
+}

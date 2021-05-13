@@ -1,0 +1,31 @@
+package com.codewithharry;
+
+interface DemoAnony{
+	void m1();
+	void m2();
+	
+	int num();
+}
+
+class AnnonymousClass{
+	public static void main (String [] args) {
+		
+		DemoAnony obj = new DemoAnony() {
+			public void m1() {
+				System.out.println("Hello, I am method one");
+			}
+			public void m2() {
+				System.out.println("Hello, I am method two");
+			}
+			
+			public int num() {
+				int num = 1;
+				return num;
+			}
+		};
+		
+		obj.m1();
+		obj.num();
+		
+	}
+}

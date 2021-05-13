@@ -1,0 +1,22 @@
+package com.revision;
+
+interface a{
+	void add(int x, int y);
+}
+class b{
+	public static void add(int x, int y) {
+		System.out.println(x +" " + y);
+	}
+}
+
+
+
+public class MethodReference {
+	public static void main(String[] args) {
+		
+		a obj = b::add;
+		obj.add(10, 20);
+
+	}
+
+}

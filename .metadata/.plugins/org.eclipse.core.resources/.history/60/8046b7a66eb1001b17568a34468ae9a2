@@ -1,0 +1,15 @@
+package com.revision;
+
+interface classes{
+	void student(int rollno);
+}
+
+public class Lambda_expression {
+
+	public static void main(String[] args) {
+		classes obj = (rollno)->System.out.println("Hello student and rollno." + rollno);
+		obj.student(108);
+
+	}
+
+}
